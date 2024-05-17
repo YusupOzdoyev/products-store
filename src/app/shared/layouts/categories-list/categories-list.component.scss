@@ -1,0 +1,12 @@
+@use "src/base";
+
+nav {
+  min-width: 200px;
+  width: 200px;
+  height: calc(100vh - 60px);
+  box-sizing: border-box;
+
+  background: rgb(86, 94, 170);
+
+  overflow-y: scroll;
+}
